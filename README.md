@@ -1,6 +1,6 @@
 # Laravel 5.1 Kurecell Sms Paketi
 
-Bu paketin kullanılabilmesi için Netgsm ```https://www.netgsm.com.tr/``` firmasına üye olunup, php api desteği açtırılmalıdır.
+www.kurecell.com.tr
 
 Komut satırından bu kodu çalıştırınız:
 ```
