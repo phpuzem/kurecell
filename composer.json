@@ -20,7 +20,7 @@
   "require": {},
   "autoload": {
     "psr-0": {
-      "Phpuzem\\Kurecell\\": "src"
+      "Phpuzem\\Kurecell\\": "Phpuzem/Kurecell/src"
     }
   },
   "minimum-stability": "dev"
