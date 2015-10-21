@@ -1,0 +1,27 @@
+{
+  "name": "phpuzem/kurecell",
+  "description": "Kurecell Sms Paketi",
+  "keywords": [
+    "sms",
+    "kurecell",
+    "laravel 5",
+    "sms api",
+    "baslikli sms",
+    "laravel"
+  ],
+  "homepage": "https://github.com/phpuzem/kurecell",
+  "authors": [
+    {
+      "name": "Halil Coşdu",
+      "email": "info@phpuzem.com"
+    }
+  ],
+  "license": "MIT License",
+  "require": {},
+  "autoload": {
+    "psr-0": {
+      "Phpuzem\\Kurecell\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
