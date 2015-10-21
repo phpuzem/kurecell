@@ -3,6 +3,7 @@
 namespace Phpuzem\Kurecell;
 
 use Illuminate\Support\ServiceProvider;
+use Phpuzem\Kurecell\KurecellClass as MainClass;
 
 class KurecellSmsProvider extends ServiceProvider {
 
@@ -28,7 +29,7 @@ class KurecellSmsProvider extends ServiceProvider {
     {
         $this->app['kurecell'] = $this->app->share(function ()
         {
-            return new KurecellClass;
+            return new MainClass;
         });
         $this->app->alias('kurecell', 'Phpuzem\Kurecell\KurecellClass');
     }
